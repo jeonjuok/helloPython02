@@ -1,6 +1,6 @@
 import json
-################
-user = json.loads('{"id": 100, "name": "홍길동"} ')
+# 홍길동을 철수로 변경
+user = json.loads('{"id": 100, "name": "철수"} ')
 
 # print('username is' + user['name'])
 print(f'username is {user["name"]}')
